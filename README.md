@@ -27,6 +27,12 @@ GitとGitHubの練習用リポジトリです。
   - commit前の変更を元に戻す
 - `git remote add origin`
   - GitHubリポジトリの接続先を登録する
+- `git remote -v`
+  - 今つながっているGitHubの接続先を確認する
+- `git remote remove origin`
+  - GitHubとの接続設定を解除する
+- `git remote set-url origin`
+  - 既存のGitHub接続先URLを別のものに変更する
 - `git push -u origin main`
   - ローカルのmainをGitHubへ送り、以後の送り先として覚えさせる
 - `git pull`
